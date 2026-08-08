@@ -1,0 +1,1 @@
+This portfolio uses the exported Figma case-study artwork as the visual source for each case-study page, with a functional website navigation layer on top.
