@@ -1,21 +1,21 @@
 # Aayush Vishwakarma — Portfolio
 
-Static portfolio built from the supplied Figma file and prototype.
+Static portfolio built from the Figma file. Case study pages render the **exported Figma artwork** (not HTML recreations), with site navigation on top so the site matches the design.
 
 ## Run locally
 
-Open `index.html` in a browser, or use any simple local static server.
+Open `index.html` in a browser, or use any simple local static server:
+
+```bash
+python3 -m http.server 8080
+```
 
 ## GitHub Pages
 
-1. Create a GitHub repository named `YOURUSERNAME.github.io`.
-2. Upload all files in this folder.
-3. Go to Settings → Pages.
-4. Select Deploy from a branch → `main` → `/root`.
-5. Save. Your site will be available at `https://YOURUSERNAME.github.io`.
+Deployed from the `main` branch root at `https://AayushVish.github.io`.
 
-## Important asset note
+## Assets
 
-The Figma asset server URLs used here are temporary. The Figma integration currently exposes these assets as short-lived URLs, so replace them with locally hosted copies before the temporary URLs expire. The page structure and navigation are already ready for that swap.
+All images live in `assets/` (optimized local copies of the Figma exports). Do not point the site at temporary `figma.com/api/mcp/asset/...` URLs — those expire.
 
-The Resume button points to the Google Drive URL supplied with the project.
+If you update the Figma file, re-export the home previews and full case-study frames, replace the matching files under `assets/`, and keep the same filenames.
